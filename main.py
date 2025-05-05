@@ -28,7 +28,7 @@ def main():
                     max_temp = df["HourlyDryBulbTemperature"].max()
                 if (max_temp > biggest):
                     biggest = max_temp
-                print(max_temp)
+        print(biggest)
 
                 
                     
